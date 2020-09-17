@@ -1,40 +1,60 @@
 /* Custom Style Sheet */
 body{
-  background-color: #
+  background-color: #AFC7BA
 }
 
 /* Navbar Decoration */
-/* .mynav {
-  background-image: linear-gradient(to Right, #007900, grey, white);
-} */
+
 .mynav {
   background-image: url(img/hill.jpg);
   background-size: cover;
+
   }
 
 .navbar-brand {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
     text-shadow: 3px 5px #777;
-    /* color: linen !important; */
-    margin-left: 50px;
-    margin-right: 50px !important;
+
 }
 
 .mynav a {
-  margin-right: 20px;
+  right;
+  margin-right: 40px;
   color: linen !important;
 
 }
 
 .mynav a:hover {
-  /* border-bottom: 2px solid #23c769; */
   background-color: #23c769
 }
 
 .active a {
   border-bottom: 2px solid #23c769;
 }
+
+.dropdown-i {
+  color: #777 !important;
+
+}
+
+/* Page Header */
+
+#phdr {
+    background-image: linear-gradient(#7D819C, #fff);
+    align-items: center;
+
+}
+
+/* body */
+
+.image1 {
+  padding: 20px;
+}
+.gap100 {
+    padding: 70px 0px;
+}
+
 
 
 /* Footer */
@@ -58,7 +78,7 @@ footer {
   color: #23c769;
 
 }
-@media only screen and (max-width: 1140px) {
-  .navbar-brand {
+/* @media only screen and (max-width: 1140px) { */
+    .navbar-brand {
   margin-left: 10px;
   }
